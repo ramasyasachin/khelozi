@@ -58,7 +58,7 @@
 #top-banner{
     width: 100%;
     background-color: blue;
-    background-image: url("image/bannerback.jpg");
+    background-image: url("bannerback.jpg");
     background-size: 250px;
     background-repeat: repeat;
 }
@@ -145,7 +145,7 @@ a:hover{
     width: 100%;
     height: auto;
     background-color: purple;
-    background-image: url("image/back2.jpg")!important;
+    background-image: url("back2.jpg")!important;
     background-size: cover;
     background-position: center;
 }
@@ -356,7 +356,7 @@ a:hover{
 #eight-feature-image-back{
     width: 100%;
     height: auto;
-    background-image: url("image/backimage-min.png");
+    background-image: url("backimage-min.png");
     background-position: center;
     background-size: cover;
     margin-top: 50px;
@@ -518,7 +518,7 @@ a:hover{
 #three-step-section{
     width: 100%;
     height: auto;
-    background-image: url("image/bannerback.jpg");
+    background-image: url("bannerback.jpg");
     background-size: 250px;
     display: flex;
     flex-direction: row;
@@ -621,7 +621,7 @@ a:hover{
     justify-content: flex-end;
     flex-wrap: wrap;
     align-content: flex-start;
-    background-image: url("image/ladki.png");
+    background-image: url("ladki.png");
     background-position: center;
     background-size:contain;
     background-repeat: no-repeat;
@@ -686,7 +686,7 @@ footer{
     justify-content: center;
     flex-wrap: wrap;
     align-content: center;
-    background-image: url(image/bannerback.jpg);
+    background-image: url(bannerback.jpg);
     background-size: 250px;
 }
 
