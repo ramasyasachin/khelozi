@@ -1,0 +1,749 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+/*Navbar Button Design*/
+
+.button1{
+    background-color:springgreen;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.button1:hover{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px springgreen;
+    color: rgb(255, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.button2{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.button2:hover{
+    background-color: rgb(255, 255, 255);
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(255, 255, 255, 0.499);
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+.text-springgreen{
+    color: springgreen;
+    text-decoration: rgb(255, 238, 0) underline;
+}
+
+/*Top banner css*/
+
+#top-banner{
+    width: 100%;
+    background-color: blue;
+    background-image: url("image/bannerback.jpg");
+    background-size: 250px;
+    background-repeat: repeat;
+}
+
+#overlay-div-banner{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.532);
+}
+
+#overlay-hero{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.463);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+/*Navbar CSS*/
+
+nav{
+    width: 100%;
+}
+
+#navbar-container{
+    width: 90%;
+    margin-inline: auto;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-block: 20px;
+    align-content: center;
+    overflow: hidden;
+}
+
+#navbar-list{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#navbar-left-section{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 60px;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#navbar-right-section{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+a{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    font-family:'Roboto', sans-serif;
+    font-size: 0.9rem;
+    color: springgreen;
+}
+
+#hero-section{
+    width: 100%;
+    height: auto;
+    background-color: purple;
+    background-image: url("image/back2.jpg")!important;
+    background-size: cover;
+    background-position: center;
+}
+
+/*LOGO CSS*/
+#logo-h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#text-khelo{
+    color: white;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#text-zi{
+    color: rgb(255, 44, 44);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/*hero head section css*/
+
+#hero-head-section{
+    width: 90%;
+    margin-inline: auto;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+#hero-head-left-section{
+    width: 55%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+#hero-head-left-section-text{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+#hero-head-left-section-text h2{
+    font-size: 2rem;
+}
+
+#hero-head-left-section-text h1{
+    font-size: 4rem;
+}
+
+#hero-head-right-section{
+    width: 40%;
+    height: 550px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#hero-button{
+    width: 60%;
+    height: auto;
+    background-color: springgreen;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    transition: ease;
+    transition-duration: 0.6s;
+}
+
+#hero-button:hover{
+    width: 75%;
+    height: auto;
+    background-color: springgreen;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    font-family: 'Ysabeau SC', sans-serif;
+    color: rgb(17, 17, 17);
+    font-size: 1.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px, 5px, 15px rgb(0, 255, 242);
+}
+
+/*feature section*/
+
+#different-feature-section{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    text-align: center;
+    margin-top: 60px;
+    padding-inline: 20px;
+    padding-bottom: 40px;
+}
+
+#different-text-h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 7px;
+    flex-wrap: wrap;
+}
+
+#different-text-p{
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 30px;
+}
+
+#different-text{
+    padding-bottom: 100px;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 25px;
+}
+
+#different-feature-data{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 100px;
+    flex-wrap: wrap;
+}
+
+.different-feature-data-entry{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    transition: ease;
+    transition-duration: 0.2s;
+}
+
+.different-feature-data-entry:hover{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    scale: 1.2;
+    box-shadow: 0px, 3px, 10px, black;
+}
+
+.different-feature-data-entry-h1{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    padding-top: 20px;
+}
+
+.different-feature-data-entry-p{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+
+/*Eight Feature Section*/
+
+#eight-feature-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+    padding-block: 90px;
+    background-color: rgba(0, 0, 0, 0.481);
+    
+}
+
+#eight-feature-image-back{
+    width: 100%;
+    height: auto;
+    background-image: url("image/backimage-min.png");
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+}
+
+#eight-feature-top{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#eight-feature-bottom{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.eight-feature-card{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding: 20px;
+    gap: 15px;
+    overflow: hidden;
+    transition: ease;
+    transition-duration: 0.2s;
+}
+
+.eight-feature-card:hover{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding: 20px;
+    gap: 15px;
+    overflow: hidden;
+    scale: 1.1;
+}
+
+.eight-feature-h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#eight-feature-heading{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    color: white;
+    padding-bottom: 30px;
+}
+
+.eight-feature-card p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+}
+
+#eight-feature-card-1{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lemonchiffon;
+}
+
+#eight-feature-card-2{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lightblue;
+}
+
+#eight-feature-card-3{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lightcoral;
+}
+
+#eight-feature-card-4{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lightgreen;
+}
+
+#eight-feature-card-5{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lightpink;
+}
+
+#eight-feature-card-6{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lightskyblue;
+}
+
+#eight-feature-card-7{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px lightsalmon;
+}
+
+#eight-feature-card-8{
+    background-color:rgb(255, 255, 255);
+    box-shadow: 2px 5px 10px rgb(255, 255, 130);
+}
+
+#eight-feature-card-1:hover{
+    background-color: lemonchiffon;
+    box-shadow: 2px 5px 10px lemonchiffon;
+}
+
+#eight-feature-card-2:hover{
+    background-color:lightblue;
+    box-shadow: 2px 5px 10px lightblue;
+}
+
+#eight-feature-card-3:hover{
+    background-color:lightcoral;
+    box-shadow: 2px 5px 10px lightcoral;
+}
+
+#eight-feature-card-4:hover{
+    background-color:lightgreen;
+    box-shadow: 2px 5px 10px lightgreen;
+}
+
+#eight-feature-card-5:hover{
+    background-color:lightpink;
+    box-shadow: 2px 5px 10px lightpink;
+}
+
+#eight-feature-card-6:hover{
+    background-color:lightskyblue;
+    box-shadow: 2px 5px 10px lightskyblue;
+}
+
+#eight-feature-card-7:hover{
+    background-color:lightsalmon;
+    box-shadow: 2px 5px 10px lightsalmon;
+}
+
+#eight-feature-card-8:hover{
+    background-color:rgb(255, 255, 130);
+    box-shadow: 2px 5px 10px rgb(255, 255, 130);
+}
+
+
+/*Three step section*/
+
+#three-step-section{
+    width: 100%;
+    height: auto;
+    background-image: url("image/bannerback.jpg");
+    background-size: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#three-step-overlay{
+    width: 100%;
+    margin-inline: auto;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.655);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 50px;
+    padding-block: 80px;
+}
+
+#step-data{
+    width: 90%;
+    margin-inline: auto;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.step-data-entry{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 25px;
+    width: 25%;
+    overflow: hidden;
+}
+
+.step-data-entry-p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+.step-data-entry-h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+
+
+#step-text-h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.4rem;
+    line-height: 1.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+#step-text-p{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+/* refer and earn */
+
+#referandearn-section{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    margin-block: 100px;
+}
+
+#refer-container{
+    width: 900px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    background-image: url("image/ladki.png");
+    background-position: center;
+    background-size:contain;
+    background-repeat: no-repeat;
+}
+
+#refer-text-container{
+    width: 400px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#refer-text-container h1{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    line-height: 1.5rem;
+    text-align: center;
+}
+#refer-text-container h2{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border: 1px sold transparent;
+    border-radius: 33px;
+    box-shadow: 1px 3px 12px springgreen;
+    padding-block: 40px;
+    overflow: hidden;
+    margin-top: 30px;
+    transition: ease;
+    transition-duration: 0.2s;
+}
+
+#refer-text-container h2:hover{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size: 4rem;
+    line-height: 1.5rem;
+    text-align: center;
+    border: 1px sold transparent;
+    border-radius: 33px;
+    box-shadow: 1px 3px 12px springgreen;
+    padding-block: 40px;
+    overflow: hidden;
+    margin-top: 30px;
+    background-color: springgreen;
+}
+
+
+/*footer css*/
+
+footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: url(image/bannerback.jpg);
+    background-size: 250px;
+}
+
+#overlay-footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-block: 30px;
+    background-color: rgba(0, 0, 0, 0.755);
+}
+
+#footer-container{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#footer-about-us{
+    width: 30%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 20px;
+}
+
+.footer-links{
+    width: 20%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 20px;
+}
+
+.footer-links h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+#footer-about-us p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
