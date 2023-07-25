@@ -1,0 +1,290 @@
+@media screen and (max-width: 991px){
+    #bars{
+        display: inline-block;
+    }
+
+    #call-to-action-btn, ul{
+        display: none;
+    }
+
+    #header-hero-left h2{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-bottom: 20px;
+    }
+    
+    #header-hero-left h1{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 767px){
+    #header-hero-container{
+        width: 90%;
+        margin-inline: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        padding-block: 50px;
+        padding-inline: 20px;
+    }
+
+    #header-hero-left{
+        width: 90%;
+        padding-block: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    #header-hero-right{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+
+    /*three feature */
+
+    #white-section-3feature{
+        width: 70%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: 1px 3px 10px springgreen;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-content: center;
+        padding-block: 30px;
+        padding-inline: 20px;
+    }
+
+    #white-section-3feature:hover{
+        width: 70%;
+        height: auto;
+        background-color: rgb(255, 255, 255);
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: 1px 3px 10px rgb(255, 64, 96);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        gap: 50px;
+        align-content: center;
+        padding-block: 30px;
+        padding-inline: 20px;
+    }
+
+    #white3-card{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+
+
+    /*how work*/
+
+    #how-it-works-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-block: 40px;
+    }
+
+    #how-it-works-sub-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 50px;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #how-work-left{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #how-work-right{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #opportunity-sub-container{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #opportunity-right{
+        width: 80%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #opportunity-left{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    #how-work-right h1{
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 50px;
+    }
+    
+    #opportunity-left h1{
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+        font-size: 2.5rem;
+        text-align: center;
+        line-height: 60px;
+    }
+    
+    #how-work-right p{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family:'Roboto', sans-serif;
+        font-size: 1rem;
+        line-height: 25px;
+        text-align: center;
+    }
+    
+    #opportunity-left p{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        font-family:'Roboto', sans-serif;
+        font-size: 1rem;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    /*sponsors*/
+
+    #sponsor-container h1{
+        color: rgb(0, 0, 0);
+        font-family: 'Poppins', sans-serif;
+        font-size: 3rem;
+        text-align: center;
+        line-height: 50px;
+        padding: 15px;
+    }
+}
+
+
+@media screen and (max-width:479px){
+    #header-hero-button-sec{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 25px;
+        margin-block: 40px;
+    }
+
+    #header-hero-left h2{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 0.8rem;
+        font-weight: 400;
+        padding-bottom: 15px;
+        text-align: center;
+    }
+    
+    #header-hero-left h1{
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+
+    #header-hero-left{
+        width: 100%;
+        padding-block: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    
+    #header-hero-right{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    /*step to earn*/
+
+    #how-highlights-container{
+        background: linear-gradient(#fff,#fff) padding-box,linear-gradient(90deg,#7209b7,#ed155a) border-box;
+        background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(90deg, rgb(114, 9, 183), rgb(237, 21, 90));
+        background-position-x: initial, initial;
+        background-position-y: initial, initial;
+        background-size: initial, initial;
+        background-attachment: initial, initial;
+        background-origin: padding-box, border-box;
+        background-clip: padding-box, border-box;
+        background-color: initial;
+        border: 2px solid transparent;
+        border-radius: 8px;
+        box-shadow: 0 0 1rem 0 rgb(0 0 0 / 8%);
+        margin-top: 1rem!important;
+        padding: 10px 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 15px;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #text-wrapper p{
+        margin-block: 10px!important;
+        font-size: 1.5rem;
+        text-align: center;
+        font-family: 'Poppins', sans-serif;
+    }
+}

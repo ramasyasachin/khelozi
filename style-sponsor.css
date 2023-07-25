@@ -1,0 +1,963 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+#bars{
+    display: none;
+}
+
+#header-container{
+    width: 100%;
+    height: auto;
+    background-image: url("image/sp-stad.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+#header-overlay{
+    width: 100%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.64);
+}
+
+/*navbar section*/
+
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#navbar{
+    width: 90%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    padding-block: 10px;
+    padding-inline: 20px;
+    margin-top: 20px;
+    border: 1px solid transparent;
+    border-radius: 33px;
+}
+
+/*LOGO CSS*/
+
+#logo-h1{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#text-khelo{
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#text-zi{
+    color: rgb(255, 44, 44);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/*nav list css*/
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+a:hover{
+    text-decoration: none;
+    color: rgb(0, 110, 55);
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+}
+
+#call-to-action-btn{
+    font-family: 'Ysabeau SC', sans-serif;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding-block: 8px;
+    padding-inline: 15px;
+    background-color: springgreen;
+    font-size: 1rem;
+}
+
+#call-to-action-btn:hover{
+    font-family: 'Ysabeau SC', sans-serif;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    padding-block: 8px;
+    padding-inline: 15px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 1px 2px 10px springgreen;
+    font-size: 1rem;
+}
+
+/*hero head css*/
+
+#header-hero-container{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-block: 50px;
+    padding-inline: 20px;
+}
+
+#header-hero-left{
+    width: 55%;
+    padding-block: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#header-hero-right{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#header-hero-left h2{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+#header-hero-left h1{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+}
+
+#header-hero-button-sec{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-block: 40px;
+}
+
+#button1{
+    background-color:springgreen;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#button1:hover{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px springgreen;
+    color: rgb(255, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#button2:hover{
+    background-color: rgb(255, 255, 255);
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(255, 255, 255, 0.499);
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#button2{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+/* three feature high section*/
+
+#threefeature-high-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    top: -70px;
+}
+
+#white-section-3feature{
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px springgreen;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-block: 30px;
+    padding-inline: 20px;
+}
+
+#white-section-3feature:hover{
+    width: 70%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    border-radius: 10px;
+    box-shadow: 1px 3px 10px rgb(255, 64, 96);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+    padding-block: 30px;
+    padding-inline: 20px;
+}
+
+#white3-card{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+#white3-card h3{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+#white3-card p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 25px;
+    margin-block: 7px!important;
+}
+
+
+/*how work container*/
+
+#how-it-works-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block: 40px;
+}
+
+#Opportunity-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-block: 40px;
+}
+
+#how-it-works-sub-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#opportunity-sub-container{
+    width: 90%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#how-work-left{
+    width: 40%;
+}
+
+#opportunity-right{
+    width: 40%;
+}
+
+#how-work-right{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+#opportunity-left{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 30px;
+}
+
+#how-work-right h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: start;
+    line-height: 20px;
+}
+
+#opportunity-left h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    text-align: start;
+    line-height: 60px;
+}
+
+#how-work-right p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#opportunity-left p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+}
+
+#how-work-right a{
+    background-color:springgreen;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+    width: fit-content;
+}
+
+#how-work-right a:hover{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px springgreen;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#opportunity-left a{
+    background-color:springgreen;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+    width: fit-content;
+}
+
+#opportunity-left a:hover{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px springgreen;
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+#how-highlights-container{
+    background: linear-gradient(#fff,#fff) padding-box,linear-gradient(90deg,#7209b7,#ed155a) border-box;
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(255, 255, 255)), linear-gradient(90deg, rgb(114, 9, 183), rgb(237, 21, 90));
+    background-position-x: initial, initial;
+    background-position-y: initial, initial;
+    background-size: initial, initial;
+    background-attachment: initial, initial;
+    background-origin: padding-box, border-box;
+    background-clip: padding-box, border-box;
+    background-color: initial;
+    border: 2px solid transparent;
+    border-radius: 8px;
+    box-shadow: 0 0 1rem 0 rgb(0 0 0 / 8%);
+    justify-content: flex-start;
+    margin-top: 1rem!important;
+    padding: 10px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#how-highlights-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+
+#text-wrapper p{
+    margin-block: 10px!important;
+    font-size: 1.5rem;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#text-wrapper span{
+    margin-block: 10px!important;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+/*invite*/
+
+#invite-container{
+    width: 100%;
+    margin-block: 40px;
+    background-image: linear-gradient(to right, black, rgb(0, 81, 41));
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-block: 70px;
+}
+
+#invite-section{
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+#invite-section p{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 30px;
+    text-align: center;
+}
+
+
+#invite-section a{
+    background-color: transparent;
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+#invite-section a:hover{
+    background-color: rgb(255, 255, 255);
+    padding-block: 15px;
+    padding-inline: 25px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    box-shadow: 1px 5px 10px rgba(255, 255, 255, 0.499);
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+}
+
+
+/*sponsor*/
+
+#sponsor-section{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-sizing: border-box;
+    margin-block: 60px;
+}
+
+#sponsor-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.first-row-sponsors{
+    width: 90%;
+    padding-block: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    align-content: center;
+    box-sizing: border-box;
+    margin-inline: auto;
+    overflow: hidden;
+}
+
+.sponsor-box{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(235, 208, 208, 0.484);
+    border-radius: 50%;
+    box-sizing: border-box;
+}
+
+
+/*card*/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	margin: 0;
+}
+
+h3 {
+	margin: 10px 0;
+}
+
+h6 {
+	margin: 5px 0;
+	text-transform: uppercase;
+}
+
+p {
+	font-size: 14px;
+	line-height: 21px;
+    margin-block: 30px;
+}
+
+.card-container {
+	background-color: #231E39;
+	border-radius: 5px;
+	box-shadow: 0px 10px 20px -10px rgba(0,0,0,0.75);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+    min-width: 22%;
+	text-align: center;
+    padding-bottom: 30px;
+    margin-inline: auto;
+}
+
+.card-container:hover{
+	background-color: rgb(0, 70, 35);
+	border-radius: 5px;
+	box-shadow: 2px 5px 15px rgb(0, 0, 0);
+	color: #B3B8CD;
+	padding-top: 30px;
+	position: relative;
+	width: 350px;
+	max-width: 100%;
+	text-align: center;
+    padding-bottom: 30px;
+}
+
+.card-container .pro {
+	color: #231E39;
+	background-color: #FEBB0B;
+	border-radius: 3px;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.card-container .round {
+	border: 1px solid #03BFCB;
+	border-radius: 50%;
+	padding: 7px;
+}
+
+a.primary {
+	background-color: #03BFCB;
+	border: 1px solid #03BFCB;
+	border-radius: 3px;
+	color: #231E39;
+	font-family: 'Ysabeau SC', sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+    margin: 10px;
+}
+
+a.primary:hover{
+	background-color: transparent;
+	border: 1px solid #ffffff;
+	border-radius: 3px;
+	color: white;
+	font-family: 'Ysabeau SC', sans-serif;
+	font-weight: 500;
+	padding: 10px 25px;
+    margin: 10px;
+}
+
+a.primary.ghost {
+	background-color: transparent;
+	color: #02899C;
+    margin: 10px;
+}
+
+a.primary.ghost:hover{
+	background-color: white;
+	color: #000000;
+    margin: 10px;
+}
+
+.skills {
+	background-color: #1F1A36;
+	text-align: left;
+	padding: 15px;
+	margin-top: 30px;
+}
+
+.skills ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.skills ul li {
+	border: 1px solid #2D2747;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
+}
+
+
+#sponsor-container h1{
+    color: rgb(0, 0, 0);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 20px;
+    padding: 15px;
+}
+#para-sp{
+    color: rgb(0, 0, 0);
+    font-family: 'Ysabeau SC', sans-serif;
+    font-size: 1rem;
+    text-align: center;
+    line-height: 20px;
+    padding: 15px;
+    margin-block: 10px!important;
+}
+
+
+/*Sub footer*/
+
+#copyright{
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), rgb(0, 48, 24));
+}
+
+#copyright p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.7rem;
+    line-height: 25px;
+    max-height: fit-content;
+    color:rgba(250, 235, 215, 0.811);
+    text-align: center;
+}
+
+#copyright h3{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    max-height: fit-content;
+    color:rgba(250, 235, 215, 0.811);
+    text-align: center;
+}
+
+/*apply css*/
+
+#apply-text{
+    width: 100%;
+    margin-block: 50px;
+    padding-block: 70px;
+    padding-inline: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+#apply-text h1{
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+form{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+form p{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-family:'Roboto', sans-serif;
+    font-size: 1rem;
+    text-align: start;
+    line-height: 25px;
+    width: 100%;
+    margin-block: 15px!important;
+    padding-top: 15px;
+}
+
+form input{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+#state{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+}
+
+#submit-button{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 1px 3px 15px black;
+    margin-top: 60px;
+}
+
+#submit-button:hover{
+    width: 100%;
+    padding: 20px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+    box-shadow: 1px 3px 15px black;
+    margin-top: 60px;
+    background-color: springgreen;
+}
+
+/*res nav*/
+/*res navbar*/
+
+.res-navbar{
+    width: 90%;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    gap: 40px;
+    border: 1px soldi transparent;
+    border-radius: 33px;
+    padding-block: 50px;
+    box-shadow: 1px 3px 10px black;
+    background-color: azure;
+    left: -100%;
+    position: absolute;
+    transition: ease;
+    transition-duration: 0.2s;
+    z-index: 5;
+    overflow: hidden;
+}
+
+.res-navbar.active {
+    left: 5%;
+}
+
+#res-navbar-list{
+    display: flex!important;
+    flex-direction: column;
+    gap: 20px!important;
+    position: relative;
+    list-style: none;
+    font-size: 2rem;
+    line-height: 40px;
+    color: black!important;
+    z-index: 7;
+}
+
+/*accodian*/
+
+.accordian-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-content: center;
+    padding: 20px;
+    margin-block: 70px;
+}
+
+.accordian{
+    max-width: 700px;
+    padding-inline: 30px;
+    padding-block: 20px;
+    margin-bottom: 50px;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    box-shadow: 1px 3px 15px springgreen;
+    cursor:pointer;
+}
+
+.accordian:hover{
+    max-width: 700px;
+    padding-inline: 30px;
+    padding-block: 20px;
+    margin-bottom: 50px;
+    border: 1px solid transparent;
+    border-radius: 33px;
+    box-shadow: 1px 3px 15px rgb(255, 0, 153);
+    cursor:pointer;
+}
+
+.question{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.question h2{
+    max-width: 85%;
+}
+
+.answer{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    max-height: 0px;
+    overflow: hidden;
+    transition: ease;
+    transition-duration: 0.5s;
+}
+
+.icon.active{
+    transform: rotate(180deg);
+}
+
+.answer.active{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 25px;
+    max-height: fit-content;
+    transition: ease;
+    transition-duration: 0.5s;
+    overflow: hidden;
+}
+
+.accordian-container h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 3rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
