@@ -23,6 +23,54 @@
 }
 
 @media screen and (max-width: 767px){
+
+    /*invite*/
+
+    #invite-section{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        align-content: center;
+        gap: 30px;
+        padding-top: 70px;
+    }
+
+    #invite-image-ex{
+        width: 70%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        margin-inline: auto;
+    }
+
+    #invite-content{
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        flex-wrap: wrap;
+        align-content: center;
+    }
+
+    #invite-content form{
+        margin-inline: auto;
+    }
+
+    #termconditionbtn{
+        cursor: pointer;
+        padding: 6px;
+        display: inline-block;
+        margin-inline: auto;
+    }
+
+    #oppo-image{
+        margin-inline: auto;
+    }
+
     #header-hero-container{
         width: 90%;
         margin-inline: auto;
@@ -54,7 +102,7 @@
     /*three feature */
 
     #white-section-3feature{
-        width: 70%;
+        width: 90%;
         height: auto;
         background-color: rgb(255, 255, 255);
         border: 1px solid transparent;
@@ -71,7 +119,7 @@
     }
 
     #white-section-3feature:hover{
-        width: 70%;
+        width: 90%;
         height: auto;
         background-color: rgb(255, 255, 255);
         border: 1px solid transparent;
@@ -138,7 +186,7 @@
     }
 
     #opportunity-sub-container{
-        width: 90%;
+        width: 95%;
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
@@ -175,7 +223,7 @@
     #opportunity-left h1{
         color: rgb(0, 0, 0);
         font-family: 'Poppins', sans-serif;
-        font-size: 2.5rem;
+        font-size: 2rem;
         text-align: center;
         line-height: 60px;
     }
